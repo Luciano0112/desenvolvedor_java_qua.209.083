@@ -26,8 +26,6 @@ public class App {
         String email;
         String telefone; 
 
-
-
          //entrada de dados  
 
         System.out.println( "Informe seu nome: ");
