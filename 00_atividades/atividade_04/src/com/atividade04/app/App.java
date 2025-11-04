@@ -11,6 +11,7 @@ public class App {
         String[] salas = new String[5];
         String nome;
         String sala;
+        String filme;
         int idade;
         int idadeMinima = 0;
 
@@ -41,7 +42,23 @@ public class App {
             System.out.println("Informe a sala desejada:");
             sala = leia.nextLine();
             
-            //TODO:TERMINAR  O PROGRAMA
+        switch (sala) {
+            case "1":
+            break
+            case "2":
+            break
+            case "3":
+            break
+            case "4":
+            break
+            case "5":
+            break
+            default:
+            
+
+        }    
+        
+        
         } while (idade < idadeMinima);
 
 

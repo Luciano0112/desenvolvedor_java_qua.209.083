@@ -1,29 +1,33 @@
-package com.atividade.app;
+package com.atividade02.app;
 
 import java.util.Scanner;
 
-public class EquacaoPrimeiroGrau {
-    public static void main(String[] args) throws Exception{
-        
+public class App {
+    public static void main(String[] args) throws Exception {
+        // instancia Scanner
+        Scanner leia = new Scanner(System.in);
+
+        // declaração de variáveis
         double a;
         double b;
         double x;
 
-        
-                System.out.println("Informe o valor de 'a':");
-                a = leia.nextDouble();
-                System.out.println("Informe o valor de 'b' :");
-                b = leia.nextDouble();
+        // entrada de dados
+        System.out.println("Informe o valor de 'a':");
+        a = leia.nextDouble();
+        System.out.println("Informe o valor de 'b':");
+        b = leia.nextDouble();
 
-            if (a !=0) {
-                x = -b/a;
-                System.out.println("x = " x);
+        // calcula a equação do 1º grau a*x + b = 0
+        if (a != 0) {
+            x = -b/a;
+            System.out.println("x = " + x);
+        }
+        else {
+            System.out.println("Não existe raíz real.");
+        }
 
-            }
-            else{}
-            System.out.println("Não Existe Raiz real");
-            
-
-        scanner.close();
+        // fecha objeto leia
+        leia.close();
     }
 }
