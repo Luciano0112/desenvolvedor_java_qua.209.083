@@ -11,7 +11,7 @@ public class App {
         String[] salas = new String[5];
         String nome;
         String sala;
-        String filme;
+        String filme ="";
         int idade;
         int idadeMinima = 0;
 
@@ -44,22 +44,42 @@ public class App {
             
         switch (sala) {
             case "1":
-            break
+                filme = salas[0];
+                idadeMinima = 0;
+                break;
             case "2":
-            break
+                filme = salas[1];
+                idadeMinima = 12;
+                break;
             case "3":
-            break
+                 filme = salas[2];
+                idadeMinima = 14;
+                break;
             case "4":
-            break
-            case "5":
-            break
-            default:
-            
-
-        }    
+             filme = salas[3];
+             idadeMinima = 16;
+             break;
+           case "5":
+             filme = salas[4];
+             idadeMinima = 18;
+             break;
+          default:
+          System.out.println("Sala Inexistente");
+      }    
         
-        
-        } while (idade < idadeMinima);
+        //verificação da idade
+        if (idade>= idadeMinima) {
+            System.out.println("Filme escolhido: " + filme);
+            System.out.println("Tenha um bom filme, " + nome);
+            System.out.println("👍");
+        }
+        else{
+            System.out.println("Entrada não permitida");
+            System.out.println("Escolha outro filme");
+            System.out.println("📌");
+        }
+    
+    } while (idade < idadeMinima);
 
 
         //fecha objeto leia
