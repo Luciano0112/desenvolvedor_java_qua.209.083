@@ -20,13 +20,12 @@ public class App {
         System.out.println("Informe a altura em metros:");
         usuario.altura = leia.nextDouble();
 
-        //saídad de dados
-        System.out.println("Nome: " + usuario.nome);
-        System.out.println("CPF: " + usuario.cpf);
-        System.out.println("E-mail: " + usuario.email);
-        System.out.println("Idade: " + usuario.idade);    
-        System.out.println("Altura: " + usuario.altura + " m");
-        
+        //saídad de dados 
+        usuario.exibirDados();
+
+     
+
+
         //fecha objeto leia
         leia.close();
     }
