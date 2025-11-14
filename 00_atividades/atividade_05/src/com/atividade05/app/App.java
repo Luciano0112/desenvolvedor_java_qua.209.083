@@ -46,13 +46,13 @@ public class App {
                      (imc <30) ? "está acima do peso":
                      (imc <35) ? "está obeso":
                      (imc < 40)? "está com obsedidade nível 2" :
-                     "está com obsedidade mórbida";
+                     "está com obsedidade mórbida.";
 
                  
                  //saída de dados
                  
                  JOptionPane.showMessageDialog(null,
-                    pessoa.getNome() + ", o seu IMC é " + String.format("%.2f", imc) + ".\n Segundo a OMS você " + resultado + "."
+                    pessoa.getNome() + ", o seu IMC é : " + String.format("%.2f", imc) + ".\n Segundo a OMS você " + resultado + "."
                  
                  );
                  

@@ -1,9 +1,12 @@
 package com.atividade05.models;
 
 public class Pessoa {
+    //atributos
     private String nome;
     private double altura;
     private double peso;
+
+    //consstrutor
 
     public Pessoa() {
     }
