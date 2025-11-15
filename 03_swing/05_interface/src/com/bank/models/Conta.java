@@ -66,7 +66,7 @@ public class Conta implements IConta {
 
     @Override
     public String consultarDados() {
-        return "DADOS DA CONTA:\nnOME: " + this.titular +
+        return "DADOS DA CONTA:\nNome: " + this.titular +
          "\n CPF: " + this.cpf +
          "\n Número da Agência: " + this.agencia +
          "\n Número da Conta: " + this.nConta +
