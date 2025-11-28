@@ -6,3 +6,11 @@
     background-image: linear-gradient(to bottom, #006577,#6cc2c2);
     box-shadow:0px 5px 20px #6cc2c2;
 }
+.label-carousel{
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.sombra-carousel{
+    box-shadow: opx 10px 20px #16161d;
+}
