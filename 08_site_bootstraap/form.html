@@ -47,6 +47,7 @@
     <!--container-->
     <main class="container">
         <h1>Cadastro</h1>
+        <h3 class="mt-5"> Dados do Usuário</h3>
         <hr>
         <form class="mt-5">
             <div class="row">
@@ -80,7 +81,98 @@
                     </select>
                      
                 </div>
-            </div>         
+                <!--E-MAIL-->
+                  <div class="col-12 col-md-8 col-lg-9">
+                     <label class="form-label">E-mail</label>
+                     <input class="form-control" type="email" placeholder="usuario@servidor.com" aria-label="default input example">
+                  </div>  
+                  <!--Telefone-->
+                  <div class="col-12 col-md-4 col-lg-3">
+                     <label class="form-label">Telefone</label>
+                     <input class="form-control" type="tel" placeholder="(00)9000-0000" aria-label="default input example">
+                  </div>
+
+                   <!--Nível de Escolaridade-->
+                 <div>  
+                  <input class="col-12 col-md-4 mb-3">
+                     <label class="form-label">Escolaridade</label>
+                     <select class="form-select"  aria-label="default input example">
+                        <option selected> Escolha uma opção</option>
+                        <option value="1"> Ensino Fundamental</option>
+                        <option value="2"> Ensino Médio</option>
+                        <option value="3"> Ensino Superior</option>
+                        <option value="4"> Ensino Pós Gradudação</option>
+                        <option value="5"> Ensino Mestrado</option>
+                        <option value="6"> Doutorado</option>
+                     </select>   
+                                              
+                  </div>
+
+                   <!--Profissão-->
+                  <div class="col-12 col-md-4 mb-3">
+                     <label class="form-label">Profissão</label>
+                     <input class="form-control" type="text" placeholder="Cargo que ocupa" aria-label="default input example">
+                  </div>
+
+                   <!--Salário-->
+                  <div class="col-12 col-md-4  mb-3">
+                     <label class="form-label">Salário</label>
+                     <input class="form-control" type="number" placeholder="R$" aria-label="default input example" step="100">
+                  </div>
+
+            </div> 
+            <!-- fim da row-->  
+             <h3 class="mt-5"> Endereço</h3>
+             <hr>
+             <!--row>-->
+             <div class="row"> 
+                <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <label classs="form-label">CEP:</label>
+                    <input classs="form-control" type="text" placeholder="00.000-000" aria-label="default input example">
+                </div>
+                    <!--uf-->   
+                 <div class="col-12 col-md-2col-mg-1 mb-3">
+                     <label class="form-label">UF</label>
+                     <select class="form select" aria-label="Default select example">
+                        <option>AC</option>
+                        <option>AM</option>
+                        <option>AP</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MG</option>
+                        <option>MS</option>
+                        <option>MT</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SP</option>
+                        <option>TO</option>
+                       </select> 
+                     
+                </div>
+                <!--cidade-->
+                  <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <label classs="form-label">Cidade:</label>
+                    <input classs="form-control" type="text" placeholder="Nome da Cidade onde mora" aria-label="default input example">
+                </div>
+             </div>    
+
+
+
+
         </form>
     </main>
     <!--fim do container-->
