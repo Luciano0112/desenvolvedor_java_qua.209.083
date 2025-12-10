@@ -10,9 +10,26 @@ const calcular = () =>{
     //verifica a operação selecionada
     switch(operador){
         case 'soma':
-            result = x+y;
+            result = parseInt(x)+parseInt(y);
             document.querySelector('#result').innerHTML =result
             break;
+
+            case 'subtração':
+            result = x-y;
+            document.querySelector('#result').innerHTML =result
+            break;
+
+            case 'multiplicação':
+            result = x*y;
+            document.querySelector('#result').innerHTML =result
+            break;
+
+            case 'divisão':
+            result = x/y;
+            document.querySelector('#result').innerHTML =result
+            break;
+
+            
              //TODO fazer função calcular
     }
 
